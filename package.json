@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "bs58": "^6.0.0",
+    "elliptic": "^6.5.7",
+    "fs": "^0.0.1-security",
+    "node-forge": "github:YurkoWasHere/node-forge-ec",
+    "openssl.js": "^1.2.0",
+    "path-browserify": "^1.0.1",
+    "resolve": "^1.22.8",
+    "url": "^0.11.4",
+    "zen-fs": "^0.1.1"
+  },
+  "name": "vcomp-openssl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@webpack-cli/generators": "^3.0.7"
+  },
+  "scripts": {
+    "build": "webpack",
+    "serve": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
